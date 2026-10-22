@@ -1,0 +1,14 @@
+.container {  
+  display: flex;  
+  width: 80px;  
+  justify-content: center;  
+  align-items: center;  
+  padding: 6px 24px;  
+  text-align: center;  
+  color: #FFFFFF;  
+  background-color: #4A90E2;  
+  font-size: 18px;  
+  font-weight: 600;  
+  border-radius: 12px;  
+  cursor: pointer;
+}
