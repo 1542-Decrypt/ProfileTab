@@ -1,6 +1,8 @@
 import { StyleSheet, Text, View, Image } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
+import LinkButton from "./components/LinkButton"
+
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
@@ -19,16 +21,16 @@ export default function App() {
         <View style={styles.textContainer}>
           <Text style={styles.title}>Навыки</Text>
           <View style={styles.skillbox}>
-            <Text style={styles.skill}>C#</Text>
-            <Text style={styles.skill}>Python</Text>
-            <Text style={styles.skill}>Lua</Text>
-            <Text style={styles.skill}>JavaScript</Text>
-            <Text style={styles.skill}>Unity</Text>
-            <Text style={styles.skill}>Aseprite</Text>
-            <Text style={styles.skill}>Adobe Photoshop</Text>
-            <Text style={styles.skill}>Adobe Illustrator</Text>
-            <Text style={styles.skill}>Adobe Animate</Text>
-            <Text style={styles.skill}>Figma</Text>
+            <LinkButton text="C#" url="https://pin.it/5hZ9T0G8r"/>
+            <LinkButton text="Python"/>
+            <LinkButton text="Lua"/>
+            <LinkButton text="JavaScript"/>
+            <LinkButton text="Unity"/>
+            <LinkButton text="Aseprite"/>
+            <LinkButton text="Adobe Photoshop"/>
+            <LinkButton text="Adobe Illustrator"/>
+            <LinkButton text="Adobe Animate"/>
+            <LinkButton text="Figma"/>
           </View>
         </View>
       </View>
@@ -80,17 +82,6 @@ const styles = StyleSheet.create({
     fontSize: 14,
     color: '#7d7b7b',
     textAlign: "justify"
-  },
-  skill: {
-    backgroundColor: '#8d4c17',
-    color: 'orange',
-    padding: 3,
-    paddingLeft: 20,
-    paddingRight: 20,
-    borderColor: 'orange',
-    borderRadius: 15,
-    borderWidth: 1,
-    textAlign: 'center'
   },
   skillbox:{
       gap: 6,
