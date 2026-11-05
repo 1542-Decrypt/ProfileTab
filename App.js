@@ -13,24 +13,24 @@ export default function App() {
         />
         <View style={styles.textContainer}>
           <Text style={styles.name}>Хузеев Рамиль</Text>
-          <Text style={styles.title}>Junior Frontend Developer</Text>
+          <Text style={styles.title}>Junior Developer | Senior 2D Pixel Artist</Text>
           <Text style={styles.bio}>
-            Люблю C#, путешествия и сидеть с ноутом (обязательно мак) в старбаксе. Делаю вид что разрабатываю что то уже 15 лет.
+            Люблю C#, Aseprite. Терпеть не могу JS, Lua и Python. Разработчик на Unity с 4-летним стажем.
           </Text>
         </View>
         <View style={styles.textContainer}>
           <Text style={styles.title}>Навыки</Text>
           <View style={styles.skillbox}>
-            <LinkButton text="C#" url="https://pin.it/5hZ9T0G8r"/>
-            <LinkButton text="Python"/>
-            <LinkButton text="Lua"/>
-            <LinkButton text="JavaScript"/>
-            <LinkButton text="Unity"/>
-            <LinkButton text="Aseprite"/>
-            <LinkButton text="Adobe Photoshop"/>
-            <LinkButton text="Adobe Illustrator"/>
-            <LinkButton text="Adobe Animate"/>
-            <LinkButton text="Figma"/>
+            <LinkButton text="C#" url="https://ru.wikipedia.org/wiki/C_Sharp"/>
+            <LinkButton text="Python" url="https://ru.wikipedia.org/wiki/Python"/>
+            <LinkButton text="Lua" url="https://ru.wikipedia.org/wiki/Lua"/>
+            <LinkButton text="JavaScript" url="https://ru.wikipedia.org/wiki/JavaScript"/>
+            <LinkButton text="Unity" url="https://unity.com"/>
+            <LinkButton text="Aseprite" url="https://www.aseprite.org/"/>
+            <LinkButton text="Adobe Photoshop" url="https://www.adobe.com/products/photoshop.html"/>
+            <LinkButton text="Adobe Illustrator" url="https://www.adobe.com/products/illustrator.html"/>
+            <LinkButton text="Adobe Premiere" url="https://www.adobe.com/products/premiere.html"/>
+            <LinkButton text="Figma" url="https://www.figma.com/"/>
           </View>
         </View>
       </View>
